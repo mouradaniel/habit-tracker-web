@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import './styles/global.css';
 
 function App() {
   return <h1>Habit Tracker</h1>
