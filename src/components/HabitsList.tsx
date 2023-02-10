@@ -28,7 +28,6 @@ export function HabitsList({ date, onCompletedChange }: Props) {
       }
     })
       .then((response) => {
-        console.log(response.data)
         setHabitsInfo(response.data)
       })
   }, [])
